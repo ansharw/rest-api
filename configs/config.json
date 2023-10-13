@@ -1,0 +1,28 @@
+{
+    "service": {
+        "port": "8080"
+    },
+    "adapter": {
+        "redis": {
+            "host": "localhost",
+            "port": "6376",
+            "db": 0,
+            "password": "",
+            "expire": 86400,
+            "time_limit": 86400,
+            "request_limit": 3
+        },
+        "mysql": {
+            "host": "localhost",
+            "port": "3306",
+            "user": "admin",
+            "password": "admin",
+            "database": "cockatoo",
+            "max_retry_connect": 3,
+            "retry_sleep_duration": 5,
+            "max_idle_connection": 10,
+            "max_open_connection": 100,
+            "lifetime_duration_connection": 1
+        }
+    }
+}
