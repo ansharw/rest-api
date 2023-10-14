@@ -21,4 +21,11 @@
 # Go workspace file
 go.work
 
+# Credentials file 
+configs/config.json
+configs/pubsub.json
+
+# compiled file 
+cockatoo
+
 # End of https://www.toptal.com/developers/gitignore/api/go

@@ -1,6 +1,7 @@
 {
     "service": {
-        "port": "8080"
+        "port": "8080",
+        "timeout_response_api": 18000
     },
     "adapter": {
         "redis": {
@@ -15,7 +16,7 @@
         "mysql": {
             "host": "localhost",
             "port": "3306",
-            "user": "admin",
+            "username": "admin",
             "password": "admin",
             "database": "cockatoo",
             "max_retry_connect": 3,
